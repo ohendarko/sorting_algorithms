@@ -16,6 +16,7 @@ void swap(int *a, int *b)
 * @low: low
 * @high: high
 * @size: size
+* Return: appropriately
 */
 int lomuto_partition(int *array, int low, int high, size_t size)
 {
@@ -44,7 +45,7 @@ int lomuto_partition(int *array, int low, int high, size_t size)
 */
 void quick_sort_recursive(int *array, int low, int high, size_t size)
 {
-	int pivot_index; 
+	int pivot_index;
 
 	if (low < high)
 	{
@@ -54,7 +55,7 @@ void quick_sort_recursive(int *array, int low, int high, size_t size)
 	}
 }
 /**
-* selection_sort - sorts an array of integers in ascending order
+* quick_sort - sorts an array of integers in ascending order
 * using the Quick sort algorithm
 * @array: array of integers
 * @size: size of array

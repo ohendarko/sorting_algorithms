@@ -1,4 +1,5 @@
 #include "sort.h"
+#include <stdio.h>
 /**
 * swap - swaps two elements
 * @a: 1st element
